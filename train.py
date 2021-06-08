@@ -222,7 +222,7 @@ for epoch in range(1, NUM_EPOCHS+1):
             gen_loss  = gen_loss.item()
         )
 
-        if batch_idx % 10 == 0:
+        if batch_idx % 100 == 0:
             torch.save(generator.state_dict(), os.path.join("weights", GEN_CHECKPOINT))
             torch.save(discriminator.state_dict(), os.path.join("weights", DISC_CHECKPOINT))
 
