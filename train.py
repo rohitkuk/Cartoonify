@@ -83,7 +83,7 @@ shutil.rmtree("logs") if os.path.isdir("logs") else ""
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 NUM_EPOCHS   = args.epoch
-IMG_DIM      = 512
+IMG_DIM      = 256
 lr           = 2e-4
 BATCH_SIZE   = args.batch_size
 MAPS_GEN     = 64
