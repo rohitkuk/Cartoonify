@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# exclude everything
+data/*
+wandb/
+wandb
+.vscode/*
+.vscode
+
+run.sh
+
+.DS_Store
+
+List.md
+# exception to the rule
+
+!data/.gitkeep
