@@ -12,6 +12,7 @@ from torch import optim
 
 
 from src.data import dataset
+from src.data import prepare
 from src.models.discriminator import Discriminator
 from src.models.generator import Generator
 from src.utils import utils
@@ -93,6 +94,10 @@ L1_LAMBDA    = 100
 GEN_CHECKPOINT = '{}_Generator.pt'.format(args.projectname)
 DISC_CHECKPOINT = '{}Discriminator.pt'.format(args.projectname)
 
+
+# Downloading the dataset 
+
+prepare.Download_Dataset(out_path='data')
 
 # Transforms
 Trasforms = transforms.Compose([
