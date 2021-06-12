@@ -14,11 +14,8 @@ Pytorch Implementation [Translating Real Images to cartoon images using PIX2PIX 
 <p align="center">
 <img src="assets/Results.png" title="Generated " alt="Generated Data Animation">
 </p>
-<br>
-<br>
 
 ## Abstract
-<br>
 
 We investigate conditional adversarial networks as a
 general-purpose solution to image-to-image translation
@@ -35,19 +32,12 @@ without the need for parameter tweaking. As a community, we no longer hand-engin
 and this work suggests we can achieve reasonable results
 without hand-engineering our loss functions either
 <br>
-<br>
-
-
 ## Architecture
-<br>
 <p align="center">
 <img src="assets/arch.jpeg" title="DCGAN Generator" alt="DCGAN Generator">
 </p>
 
-<br>
-
 ## Directory Structre
-
 ```
 .
 ├── assets
